@@ -4,18 +4,13 @@
 }
 
 :root {
-   -- maincolour: #e9e7d9;
-   -- blacktext: #000000; 
-   -- whitetext: #ffffff;
-
-
-    
-
+   --maincolour: #e9e7d9;
+   --blacktext: #000000; 
+   --whitetext: #ffffff;
 }
 /* Basic Page Styles */
 
 .body {
- 
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -30,14 +25,13 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: left;
-     color: #e9e7d9;
-     border-bottom: solid 1px black;
+    color: #e9e7d9;
+    border-bottom: solid 1px black;
 }
 
 header {
     width: 100%;
     border-bottom: solid 1px #0a0000;
-   
 }
 
 /*.logo_container {
@@ -49,14 +43,11 @@ header {
 } */
 
 .navheader {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%
+    width: 100%;
     color: #007bb5;
-    
-    
 }
 
 .banner {
@@ -66,8 +57,6 @@ header {
     padding: 50px;
     background-color: var(--maincolour);
     border-top: solid 2px green;
-
-
 }
 .banner2 {
     width: 100%;
@@ -76,12 +65,9 @@ header {
     padding: 50px;
     background-color: var(--maincolour);
     border-top: solid 2px green;
-
-
 }
 nav {
     width: 80%;
-    
     top: 0;
     margin: 0;
     padding: 0;
@@ -101,11 +87,10 @@ nav ul li {
 }
 
 nav ul li a {
-   
     font-weight: 300;
     text-decoration: none;
     font-size: medium;
-    color: var(--blacktext)
+    color: var(--blacktext);
     font-weight: bold;
 }
 
@@ -113,17 +98,14 @@ nav ul li a:hover {
     color: #1ecfcf;
 }
 
-
 .text {
-    
     text-align: left;
     width:100%;
     position: absolute;
     top: 8px;
     left: 16px;
     padding: none;
-    color: var(--whitetext)
-    
+    color: var(--whitetext);
 }
 
 .strap {
@@ -132,7 +114,6 @@ nav ul li a:hover {
 
 .button {
     font-size: medium;
-
     border-color: #030003;
     background-color: green;
     padding-left: 20px;
@@ -141,16 +122,13 @@ nav ul li a:hover {
     padding-bottom: 5px;
     border-radius: 20px;
     margin: 20px;
-
-
 }
 
 .services_banner {
     display:flex;
     flex-direction: row;
     width: 100%;
-    background-color: var(--whitetext)
-
+    background-color: var(--whitetext);
 }
 
 .services {
@@ -160,10 +138,7 @@ nav ul li a:hover {
     justify-content: center;
     background-color: var(--whitetext);
     padding-bottom: 40px;
-
 }
-
-
 
 .service_box {
     flex-wrap: wrap;
@@ -175,43 +150,37 @@ nav ul li a:hover {
     justify-content: center;
     background-color: var(--whitetext);
     border-color: #4d88944b;
- 
     border: solid 1px #030003;
     border-radius: 15px;
     padding-bottom: 40px;
 }
 
 p {
-    
     font-size: 20px;
     padding-left: 40px;
 }
 
 p::before {
-   font-size: 50px;
+    font-size: 50px;
     content: open-quote;
 }
     
 p::after {
     font-size: 50px;
     content: close-quote;
-    
 }
-
-
 
 .service_box2 {
     flex-wrap: wrap;
     display: block;
     max-width: 100%;
     margin: 10%;
-        padding: 20px;
-        margin-left: 50px;
+    padding: 20px;
+    margin-left: 50px;
     justify-content:space-around;
     background-color: #1ecfcf;
     border-color: #4d88944b;
     font-family: "Nanum gothic";
-
 }
 
 .service_box3 {
@@ -227,30 +196,21 @@ p::after {
 }
 
 .testemonial {
-        text-align: end;
-        justify-content: flex-end;
-        font-size: 20px;
-        font-weight: bold;
-        margin-right: 130px;
-    }
+    text-align: end;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 130px;
+}
   
-
-
-
 .service_image {
     width
-
-
 }
-
 
 .company_info {
     text-align: center;
     width: 100%;
     background-color: #e9e7d9;
-    
-
-    
 }
 
 .main_footer {
@@ -258,14 +218,10 @@ p::after {
 }
 
 
-
-
-
-
 /* Footer Styles */
 footer {
-  
-    background-color:var(--maincolour)
+
+    background-color:var(--maincolour);
     padding: 10px;
     padding-right: 70px;
 }
@@ -275,10 +231,10 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    
+
 }
 
-    .social {
+.social {
     width: 30%;
     display: flex;
     flex-direction: row;
@@ -286,46 +242,41 @@ footer {
     text-align: center;
     padding-top: 15px;
     padding right: 50px;
-    }
+}
 
-
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 20px;
-        text-align: center;
-        text-decoration: none;
-        margin: 7px 10px;
-        border-radius: 50%;
-      }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 10px;
+    border-radius: 50%;
+}
   
 .fa-facebook:hover {
-      opacity: 0.4;
-  }
+    opacity: 0.4;
+}
 
 .fa-facebook {
-    
     background: #3B5998;
     color: white;
-  }
-  
+}
+
   
 .fa-linkedin {
-    
     background: #007bb5;
     color: white;
-  }
+}
   
 .fa-linkedin:hover {
     opacity: 0.4;
 }
 
 .fa-instagram {
-   
     background: #a8189c;
     color: white;
-
-  }
+}
 
 .fa-instagram:hover {
     opacity: 0.4;
@@ -335,25 +286,20 @@ footer {
     background: none;
     border: solid 1px black;
     color: rgb(0, 0, 0);
-
 }
 
 .fa-envelope:hover {
     opacity: 0.4;
 }
 
-
 .fa-git {
     background: #030003;
     color: white;
 }
 
-
 .fa-git:hover {
     opacity: 0.4;
 }
-
-
 
   .copywrite {
     width: fit-content;
@@ -364,74 +310,52 @@ footer {
     font-size: small;
 }
 
-
-
 .company_contact {
-
     width: 50%;
     border-right: solid 1px black;
-
-
-
 }
 
 .company_container {
-
-    width: 35   %;
+    width: 35%;
     justify-content: center;
     margin: 20px;
 }
 
 .Phone {
-    
     width: 35%;
     justify-content: center;
     margin: 20px;
-
 }
 
 .Email {
-
     width: 35%;
     justify-content: center;
     margin: 20px;
-
-
 }
 
 .Location{
-
     width: 35%;
     justify-content: center;
     margin: 20px;
-
 }
-
 
 .Talk_to_us_header {
     text-align: center;
     font-size: xx-large;
     color: blue;
-
 }
 
-.fa-mobile-phone {
-
-   margin: 15px;
-        font-size: 30px;
-
+.fa-mobile-phone::before {
+    margin: 15px;
+    font-size: 50px;
 }
 
 .fa-envelope {
-
     margin-left: 15px;
     font-size: 30px;
 }
 
 .fa-location-arrow {
-
     margin-left: 15px;
     font-size: 30px;
-
-
 }
