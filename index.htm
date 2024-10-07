@@ -9,15 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    
-   
     <header>
-            <!--<img src="assets/singh-WzALbxevHpQ-unsplash.jpg" width="100%;"> -->
+        <!--<img src="assets/singh-WzALbxevHpQ-unsplash.jpg" width="100%;"> -->
             <nav class = "navheader">
-                
                     <nav> 
                         <ul>     
                             <li><a href="index.htm">HOME</a></li>
@@ -27,131 +28,179 @@
                         </ul>
                     </nav>
             </nav>
-            <section class="banner">
-            <h1> COMPANY NAME</h1>
-            <br>
-           
-        </section>
-        
     </header>
+    <section class="banner">
+        <h1> OPEN ARTS </h1>
+            <br>
+    </section>
+    
+        
+    
 <!--
     <div class ="strap">
         
     </div>-->
 
     <main>
-
-     
-
-        
-
-    
-
         <section class="company_info">
 
-            <section class="banner2">
-                               
-                <br>
-                <h2>Company Strap line</h2>
-                
-               
-            
-            <h3> Standout creative content for you business </h3>
+            <div class="container">
+                <h2>Current Exhibitions</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="assets/europeana-DhZ9dR0mK9I-unsplash.jpg" alt="image" style="30%">
+                      <img src="assets/flyd-pMkepFaRaHQ-unsplash.jpg" alt="second banner images" style="30%">
+                      <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Thank you, Chicago!</p>
+                      </div>
+                   
+                    </div>
+              
+                    <div class="item">
+                      <img src="assets/flyd-pMkepFaRaHQ-unsplash.jpg" alt="Chicago" style="width:30%;">
+                      <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Thank you, Chicago!</p>
+                      </div>
+                    
+                    </div>
+                  
+                    <div class="item">
+                      <img src="assets/kai-dahms-217U8oxGoQ4-unsplash.jpg" alt="New york" style="width:30%;">
+                      <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Thank you, Chicago!</p>
+                      </div>
+                    </div>
+                    </div>
+                  
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-            </section>
-            
-            <section class="previous_clients">
-                 PREVIOUS CLIENT TESTIMONIALS
+              </div>
+        </section>
+              
+              
+<!--
 
+            <div class="carousel_container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/singh-slNdTsSTZ9w-unsplash.jpg" width="500px" alt="First slide">
+                    <img class="d-block w-100" src="assets/singh-slNdTsSTZ9w-unsplash.jpg"  width="500px" alt="First slide">  
+                </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/singh-rFtCaZqb_wU-unsplash.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/singh-8tzyHj-2A3E-unsplash.jpg" alt="Third slide">
+                  </div>
+                </div>
+            
+                </a
+              </div>
+            </section>
+
+        -->
+
+
+            <section class="banner2">
+            <h2>Company Strap line</h2>    
+            <h3> Standout creative content for you business </h3>
+            </section>
+            <section class="previous_clients">
+                PREVIOUS CLIENT TESTIMONIALS
                 <div class="client_logos">
                      Client logos 
                 </div>
                 <div class="reviews">
 
                 </div>
-
                 <form class= "contact_button">
                     <a href="contact.htm"><input type="button" class="button" value="Contact Us"></a>
                 </form>  
             </section>
         </section>
 
-
         <section class="services_banner">
-            
+           
+    
             <section class="services">
+                <div class="services2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <img src="assets/singh-5NmVCHbrE-I-unsplash.jpg" width = "50%">
+                </div>  
+            </section>
             <div class="service_box">
-
-                <p>This company has been integral to our company's growth by helping us to find our voice brand strategy.</p>
-
+                <p1 class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p1>
                 <div class = testemonial>
-
-                    Sophie Jones, CEO of A Company
-
+                   CEO of A Company
                 </div>
             </div>
-
-
-
-
-
             <div class="service_box">
-    
-<p>Copy me has been integral to our company's growth by helping us to find our voice brand strategy.</p>
-
-<strong>Sophie Jones, CEO of A Company</strong>
-
-            </div>
-
+                <p1 class="p1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo  </p1>
+                <div class = testemonial>
+                    CEO of A N Other Company
+                 </div>
+                </div>  
             </section>
-    
-        
-
-       
-
-
-       
+          
     </main>
-
     <footer>
-            
-            <nav class = "navfooter">
+        <nav class = "navfooter">
             <ul> 
                 <li><a href="index.htm">HOME</a></li>
                 <li><a href="about.htm">ABOUT</a></li>
                 <li><a href="services.htm">SERVICES</a></li>
                 <li><a href="contact.htm">CONTACT</a></li>
-            </ul>
-            
-        
-           
-        <div class = social>
-            <div class="envelope">
-                <a href="#" class="fa fa-envelope"></a>
+            </ul> 
+            <div class = social>
+                <div class="envelope">
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+                <div class ="git">
+                    <a href="#" class="fa fa-git"></a>
+                </div>
+                <div class="instagram">
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class ="facebook"> 
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div class = "Git">  
+                </div>
+                <div class="linkedin">
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
             </div>
-            <div class ="git">
-                <a href="#" class="fa fa-git"></a>
-            </div>
-             <div class="instagram">
-                <a href="#" class="fa fa-instagram"></a>
-            </div>
-            <div class ="facebook"> 
-                <a href="#" class="fa fa-facebook"></a>
-            </div>
-            <div class = "Git">  
-            </div>
-            <div class="linkedin">
-                <a href="#" class="fa fa-linkedin"></a>
-            </div>
+        </nav>
+        <div class="copywrite">
+            © 2024 JasmineRoweCreativeStudio
         </div>
-
-    </nav>
-
-    <div class="copywrite">
-        © 2024 JasmineRoweCreativeStudio
-    </div>
-       
     </footer>
-
 </body>
 </html>
