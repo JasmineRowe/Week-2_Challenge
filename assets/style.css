@@ -86,6 +86,8 @@ nav ul li a:hover {
     color: #ff838a;
 }
 
+
+
 .banner {
     width: 100%;
     text-align: center;
@@ -108,13 +110,16 @@ nav ul li a:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center ;
 }
 
+
 .carousel-inner {
-    height:600px;
-    flex: 0 0 100%; 
+    height:  fit-content;
+    flex: 0 1 100%; 
     flex-wrap: wrap;
-    }
+    
+    } 
 
   
     
@@ -122,6 +127,7 @@ nav ul li a:hover {
      display: inline-block;
 
 }
+
 
 .carousel-indicators{
      display: inline-flex;
@@ -142,7 +148,7 @@ nav ul li a:hover {
 }
 
 .company_info {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     justify-content: left;
     background-color: var(--whitetext);
     padding: 40px;
@@ -193,9 +199,172 @@ nav ul li a:hover {
     background-color: #ffffff;  
 }
 
+
+@media only screen and (max-width: 400px) {
+
+    .body {
+        width: 100%
+       font-size: small;
+        margin: 0;
+        padding: 0;
+        background-color: var(--maincolour);
+        color: #0a0000;
+    }
+        
+
+    .carousel-inner {
+        width: 350px;
+       flex: 0 0 100%; 
+        flex-wrap: wrap;
+        } 
+
+        .carousel_banner {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            width: 350px;
+           
+            background-color: #ffffff;
+            margin-top: 50px;
+        }
+        
+
+  .services_banner {
+       width: 100%;
+       
+    }
+
+    .services {
+       width: 100%;
+     }
+    
+    .services2 {
+      width: 100%;
+    }
+
+    .service_box_container {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex; 
+        flex-direction: column; 
+        width: fit-content; 
+        position: relative;
+        justify-content: space-between;
+        background-color: var(--whitetext);
+        padding: 5px;
+        padding-top: 20px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    
+
+    .service_box {
+        
+        height: 300px;
+        width: 350px;
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        background-color:rgb(255, 255, 255);
+        border-radius: 0px;
+        border: solid 4px #ff838a;
+        padding-bottom: 40px;
+        margin: 20px;
+    }
+    
+    .service_box_1 {
+       
+        height: 300px;
+        width: 350px;
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        background-color:rgb(255, 255, 255);
+        border-radius: 0px;
+        border: solid 4px #ff838a;
+        padding-bottom: 40px;
+    }
+    
+    .service_box_2 {
+        
+        height: 300px;
+        width: 350px;
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        background-color:rgb(255, 255, 255);
+        border-radius: 0px;
+        border: solid 4px #ff838a;
+        padding-bottom: 40px;
+    }
+    
+
+    .services2_image {
+        width: 350px;
+                }
+
+
+                
+    footer {
+        width: 100%;
+        background-color: #ff838a;
+        border-top: solid 5px #ff838a;
+       
+    }
+    
+
+   .navfooter {
+        display: none;
+        
+        
+    }
+
+
+
+
+    .social {
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        
+    }
+
+
+    .fa {
+        padding: 10px;
+        font-size: 10px;
+        width: 15px;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 1px 3px;
+        border-radius: 50%;
+    }
+      
+
+    .footer_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+   
+} 
+
 .services_banner {
     display:flex;
     flex-direction: row;
+    position: relative;
     width: 100%;
     background-color:rgb(255, 255, 255);
     Padding-left: 50px;
@@ -203,12 +372,13 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+
 .services {
     flex-wrap: wrap;
     display: flex;  
-    width: 40%;
-    position: relative;
-    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
     background-color: var(--whitetext);
     padding: 5px;
     padding-top: 20px;
@@ -234,16 +404,33 @@ nav ul li a:hover {
 .services2 {
     flex-wrap: wrap;
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
     justify-content: left;
     background-color: var(--whitetext);
     padding-bottom: 40px;
     background-color: rgb(255, 255, 255);
 }
 
+.services2_text {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 2.5lh;
+    
+
+}
+
+.services2_image {
+width: 100%;
+
+}
+
 .service_box {
-    flex: 0 0 300px;
+    flex: 1 1 375px;
     height: 300px;
+    width: 400px;
     margin-bottom: 30px;
     padding: 25px;
     margin-left: 50px;
@@ -255,8 +442,23 @@ nav ul li a:hover {
 }
 
 .service_box_1 {
-    flex: 0 0 300px;
+    flex: 1 1 375   px;
     height: 300px;
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 25px;
+    margin-left: 50px;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0px;
+    border: solid 4px #ff838a;
+    padding-bottom: 40px;
+}
+
+.service_box_2 {
+    flex: 1 1 300px;
+    height: 300px;
+    width: 400px;
     margin-bottom: 30px;
     padding: 25px;
     margin-left: 50px;
@@ -289,7 +491,9 @@ p {
     font-size: 20px;
     padding-left: 10px;
     line-height: 2.5lh;
+    width: 100%;
 }
+
 
 .service_box2 {
     flex-wrap: wrap;
@@ -336,10 +540,20 @@ p {
 
 /* Footer Styles */
 footer {
+    width: 100%;
     background-color: #ff838a;
     padding: 10px;
     padding-right: 70px;
     border-top: solid 5px #ff838a;
+}
+
+.footer_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .navfooter {
