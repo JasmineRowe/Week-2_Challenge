@@ -200,7 +200,47 @@ nav ul li a:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
+
+
+
+    footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #ff838a;
+        padding: 10px;
+        padding-right: 70px;
+        border-top: solid 5px #ff838a;
+    }
+    
+
+
+
+.navfooter ul {
+display: none;
+
+
+
+} 
+
+.social {
+    width: 100%;
+    display: flex;
+    flex: 0 1 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+   
+}
+
+
+
+}
+
+@media screen and (max-width: 600px) {
 
     .body {
         width: 100%
@@ -343,55 +383,53 @@ nav ul li a:hover {
                 }
 
 
-
-
-    .fa {
-        padding: 5px;
-        font-size: 6px;
-        width: 5px;
-        text-align: center;
-        justify-content: center;
-        text-decoration: none;
-        margin: 1px 3px;
-        border-radius: 50%;
-    }
-      
-
   
-    footer {
-        width: 100%;
-        background-color: #ff838a;
-        padding: 0;
-        padding-right: 0;
-        border-top: solid 5px #ff838a;
-    }
-    
-    .footer_container {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        
-    }
     
     .navfooter ul {
         display: none;
         
-    }
-    
-    .social {
-        width: 400px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        padding-top: 15px;
-        padding-right: 0px
-    }
-
+ 
    
 } 
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+  
+.social div.envelope {
+
+    display:none;
+}
+
+.social div.Git {
+
+    display:none;
+}
+
+.social div.facebook {
+
+    display:none;
+}
+.social div.instagram {
+
+    display:none;
+}
+
+
+.social div.linkedin {
+
+    display:none;
+}
+
+.social div.instagram {
+
+    display:none;
+}
+
+}
 
 .services_banner {
     display:flex;
@@ -573,6 +611,9 @@ p {
 /* Footer Styles */
 footer {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     background-color: #ff838a;
     padding: 10px;
     padding-right: 70px;
@@ -583,6 +624,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex: 0 1 100%;
     justify-content: space-between;
     align-items: center;
     
@@ -590,6 +632,7 @@ footer {
 
 .navfooter {
     display: flex;
+    flex: 0 1 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -599,6 +642,7 @@ footer {
 .social {
     width: 100%;
     display: flex;
+    flex: 0 1 100%;
     flex-direction: row;
     justify-content: flex-end;
     text-align: center;
@@ -607,6 +651,7 @@ footer {
 }
 
 .fa {
+    Flex: 0 1 100%;
     padding: 30px;
     font-size: 30px;
     width: 60px;
@@ -622,12 +667,14 @@ footer {
 }
 
 .fa-facebook {
+    Flex: 0 1 100%;
     background: #3B5998;
     color: white;
 }
 
   
 .fa-linkedin {
+    Flex: 0 1 100%;
     background: #007bb5;
     color: white;
 }
@@ -637,6 +684,7 @@ footer {
 }
 
 .fa-instagram {
+    Flex: 0 1 100%;
     background: #a8189c;
     color: white;
 }
@@ -646,6 +694,7 @@ footer {
 }
 
 .fa-envelope {
+    Flex: 0 1 100%;
     background: none;
     border: solid 1px black;
     color: rgb(0, 0, 0);
@@ -656,6 +705,7 @@ footer {
 }
 
 .fa-git {
+    Flex: 0 1 100%;
     background: #030003;
     color: white;
 }
