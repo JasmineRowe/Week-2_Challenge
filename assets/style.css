@@ -200,47 +200,80 @@ nav ul li a:hover {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
 
     .body {
         width: 100%
-       font-size: small;
+        font-size: small;
         margin: 0;
         padding: 0;
         background-color: var(--maincolour);
         color: #0a0000;
     }
         
-
     .carousel-inner {
         width: 350px;
-       flex: 0 0 100%; 
-        flex-wrap: wrap;
+      
+      
+        justify-content: center;
         } 
 
-        .carousel_banner {
-            display: flex;
-            flex-direction: row;
-            text-align: center;
-            width: 350px;
-           
-            background-color: #ffffff;
-            margin-top: 50px;
+    .carousel_banner {
+            
+        text-align: center;
+        justify-content: center;
+        width: 350px;
+        height: 213px;
+        background-color: #ffffff;
+            
         }
         
 
-  .services_banner {
-       width: 100%;
-       
-    }
+        .services_banner {
+            display:flex;
+            flex-direction: column;
+            position: relative;
+            width: 350px;
+            height: 2500px;
+            width: 100%;
+            background-color:rgb(255, 255, 255);
+            Padding-left: 50px;
+            padding-top: 50px;
+            justify-content: center;
+        }
+        
+
+  
 
     .services {
-       width: 100%;
+        width: 350px;
+        height: 2000px;;
      }
     
-    .services2 {
-      width: 100%;
+     .services2 {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 2000px;
+        justify-content: left;
+        background-color: var(--whitetext);
+        padding-bottom: 40px;
+        background-color: rgb(255, 255, 255);
     }
+    .services2_text {
+        width: 350px;
+        height: 800px;
+        font-size: 15px;
+        padding-left: 10px;
+        line-height: 1.5lh;
+        
+    
+    }
+
+
+    
+
 
     .service_box_container {
         width: 100%;
@@ -263,15 +296,14 @@ nav ul li a:hover {
         height: 300px;
         width: 350px;
         margin-bottom: 30px;
-        padding: 25px;
-        margin-left: 50px;
-        margin-right: 50px;
+        padding: 50px;
+        
         justify-content: center;
         background-color:rgb(255, 255, 255);
         border-radius: 0px;
         border: solid 4px #ff838a;
         padding-bottom: 40px;
-        margin: 20px;
+        
     }
     
     .service_box_1 {
@@ -307,6 +339,7 @@ nav ul li a:hover {
 
     .services2_image {
         width: 350px;
+        height: 200px;
                 }
 
 
@@ -396,7 +429,7 @@ nav ul li a:hover {
     padding: 5px;
     padding-top: 20px;
     background-color: rgb(255, 255, 255);
-    margin-right: 40px;
+    
 }
 
 
@@ -405,7 +438,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     width: 400px;
-    height: 400px;
+    height:1000px;
     justify-content: left;
     background-color: var(--whitetext);
     padding-bottom: 40px;
@@ -429,7 +462,7 @@ width: 100%;
 .service_box {
     flex: 1 1 375px;
     height: 300px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 30px;
     padding: 25px;
     margin-left: 50px;
@@ -443,7 +476,7 @@ width: 100%;
 .service_box_1 {
     flex: 1 1 375   px;
     height: 300px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 30px;
     padding: 25px;
     margin-left: 50px;
@@ -457,7 +490,7 @@ width: 100%;
 .service_box_2 {
     flex: 1 1 300px;
     height: 300px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 30px;
     padding: 25px;
     margin-left: 50px;
