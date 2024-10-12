@@ -261,7 +261,7 @@ display: none;
 @media screen and (max-width: 600px) {
 
     .body {
-        width: 100%
+        width: 100%;
         font-size: small;
         margin: 0;
         padding: 0;
@@ -862,8 +862,8 @@ footer {
     .individual_artists {
     
         display: grid;
-        grid-template-columns: 1fr  
-                                ;
+        grid-template-columns: 1fr  ;
+      
         grid-template-rows: 4;
         gap: 40px 40px;
         grid-template-areas:
@@ -874,35 +874,18 @@ footer {
         padding: 10px;
     }
     
-    .company_container {
+    .company_container article {
         display:flex;
-        height: 2420px;
+        width:100%;
         flex-direction: column;
-        flex-wrap: wrap;
-        background-color: #ffffff;
-    }
 
-    .company_contact {
-        
-        flex: 1 1 auto;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
-    }
-
-
-    .company_form {
-        font-family: "Nanum gothic";
-        font-size: x-large;
-        font-weight: 500px;
-        width: 100%;
-        flex: 0 1 100%;
-        flex-wrap: wrap;
-        background-color: #ff838a;
-        padding: 50px;
-        padding-top: 20px;
+       
        
     }
+
+
+
+   
 }
 
 .artist_box {
@@ -918,11 +901,12 @@ footer {
 
 .company_container {
     display:flex;
-    flex-direction: row;;
+    flex-direction: row;
     width: 100%;
     height: auto;
     justify-content: center;
     background-color: #ffffff;
+    float: left;
 }
 
 .company_contact {
@@ -1011,12 +995,11 @@ footer {
 
 /* CONTACT FORM*/
 .company_form {
+    float: left;
     font-family: "Nanum gothic";
     font-size: x-large;
     font-weight: 500px;
-    max-width: 50%;
     flex: 0 1 50%;
-   
     flex-wrap: wrap;
     width: 50%;
     background-color: #ff838a;
